@@ -1,7 +1,6 @@
-#include <Runtime.h>
-#include <String.h>
-#include <string.h>
-#include <sha512.h>
+#include <emojicode/runtime/Runtime.h>
+#include <emojicode/s/String.h>
+#include "sha512.h"
 
 class ESHA : public runtime::Object<ESHA> {};
 
